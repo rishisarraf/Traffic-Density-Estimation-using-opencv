@@ -1,0 +1,20 @@
+To compile the baseline program use =>	make
+
+
+Using the makefile to compile:
+method 1 use-> make one
+method 2 use -> make two
+method 3 use -> make three
+method 4 use-> make four
+
+To run the executable for:
+Baseline use-> ./out
+method 1 use-> ./out number_of_frames
+method 2 use -> ./out x_factor y_factor
+method 3 use -> ./out number_of_threads
+method 4 use-> ./out number_of_threads
+
+
+use make clean to remove files.
+
+Make sure you have "empty.jpg" and video "trafficvideo.mp4" in the same directory before running this. "empty.jpg" is already added, add "trafficvideo.mp4" from your local machine.

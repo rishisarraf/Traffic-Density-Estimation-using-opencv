@@ -1,0 +1,22 @@
+The analysis folder has a report.pdf file and 2 sub-folders: output_files and Python scripts.  
+
+
+A) Python scripts folder has majorly two types of files ->
+
+1) analysis files-> this file linearly interpolates the values of the output obtained by the methods and then uses it to compute the RMS error and also generates the graph for the same. Analysis for method 1 output files, analysis2 for method 2 and analysis3 for method3.
+
+Use for analysis.py -> python analysis.py file.csv skip_factor 
+for analysis2.py -> python analysis2.py file.csv skip_factor
+for analysis3.py -> python analysis3.py file.csv skip_factor
+where file.csv is the output obtained by running the methods, skip factor is the parameter passed for analysis and analysis3. Analysis2 handles only homogeneous factors in method 2(x_factor = y_factor = skip_factor)
+
+2) Utilitys-> this file takes in the error and time to compute the utilites. It then plots the output of utility vs time 
+
+to run use -> python utility.py
+for cpu.py -> python cpu.py (cpu.py generates the CPU utility plot for method 2 and 3)
+for utility2.py -> python utility2.py
+
+B) The output_files contains 2 subfolders: plots and csv
+
+i) csv: contains the output csv  files of all the methods for all the parameters included in the report.
+ii) plots: Method wise plots(as included in the report)
